@@ -2,7 +2,9 @@
 
 Neste repositório temos o desenvolvimento do Projeto Computacional: Solução de Sistemas Não-Lineares via Métodos de Newton-Raphson e Quasi-Newton Usando o MATLAB.
 
-O projeto em LaTex pode ser acessado em:
+A descrição completa e as etapas são descritas no arquivo `Projeto Computacional.pdf`. 
+
+O código fonte deste arquivo em LaTex pode ser acessado em:
 https://mega.nz/#F!fUUnRCKK!qFp6WKP-Snmg1KspTl_8YA
 
 # Resumo
