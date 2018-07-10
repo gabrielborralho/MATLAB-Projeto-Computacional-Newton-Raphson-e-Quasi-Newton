@@ -1,15 +1,23 @@
-# MATLAB-Projeto-Computacional-Newton-Raphson-e-Quasi-Newton
+# MATLAB: Projeto Computacional
 
 Neste repositório temos o desenvolvimento do Projeto Computacional: Solução de Sistemas Não-Lineares via Métodos de Newton-Raphson e Quasi-Newton Usando o MATLAB.
+
+O projeto em LaTex pode ser acessado em:
+https://mega.nz/#F!fUUnRCKK!qFp6WKP-Snmg1KspTl_8YA
+
+# Resumo
 
 Este projeto tem como objetivo o desenvolvimento de um programa computacional para solução de sistemas de equações não-lineares através dos Métodos de Newton-Raphson e Quasi-Newton. O principal pré-requisito para a implementação do Método de Newton-Raphson e suas variantes é a existência de funções (sub-rotinas) para a solução de sistemas de equações lineares. Desta forma, também serão implementados dois métodos para a solução de sistemas lineares: eliminação de Gauss (usada no Método de NewtonRaphson) e Método de Gauss-LU (usada no método Quasi-Newton). Ambos os métodos de solução de sistemas lineares foram implementados com a estratégia de pivoteamento parcial. O método Quasi-Newton que foi utilizado foi o Método de Newton Modificado(Quasi-Newton). Neste método não há atualização da matriz jacobiana durante o processo iterativo, isto é, a matriz jacobiana associada com a estimativa x(0) é usada durante todo o processo iterativo.
 
 # Metodologia
 
 > O programa foi dividido em funções. Por exemplo, foram criadas funções para realizar as seguintes tarefas: 
-    >> construção da matriz jacobiana;
-    >> cálculo do vetor associado com as equações não lineares (F(x)); 
-    >> cálculo de ||F(x)||∞; etc.
+
+    - construção da matriz jacobiana;
+    
+    - cálculo do vetor associado com as equações não lineares (F(x));
+    
+    - cálculo de ||F(x)||∞; etc.
     
 > Foram construidas funções separadas para a solução dos sistemas lineares.
 
